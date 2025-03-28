@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"/>
+  <style>
+    .login-form {
+      width: 40%;
+      height: 600px;
+      border-radius: 5px;
+      margin: 0px auto;
+      background-color: white;
+      padding: 2%;
+      filter: drop-shadow(-34.92852783203125px 44.706478118896484px 113.46666717529297px rgba(51, 51, 51, 0.32));
+    }
+    .form-control{
+      border-color: green;
+    }
+    
+  </style>
+  <title>Login</title>
+</head>
+
+<body>
+  <div class="container-fluid" style="padding: 5%; background-color: #f0f4ee; margin: -30px 0px 0px 0px">
+    <div class="login-form">
+      <div class="container" style="text-align: center">
+        <img src="../assests/images/uollogo2.png" alt="" width="70%" height="25%" />
+        <h2>Bus Management System</h2>
+        <h3>Admin Panal</h3>
+      </div>
+      <br />
+      <form method="post" action="login.php">
+        <div class="form-group">
+          <label for="InputEmail1">Email address</label>
+          <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" name="admin_email"/>
+        </div>
+        <div class="form-group">
+          <label for="InputPassword1">Password</label>
+          <input type="password" class="form-control" id="InputPassword1" name="admin_pass" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+      <a class="btn btn-primary" href="signup.php">Signup</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
